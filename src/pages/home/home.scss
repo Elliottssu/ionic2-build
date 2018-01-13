@@ -1,0 +1,29 @@
+page-home {
+
+}
+ion-slide {
+    div {
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+    }
+}
+ion-grid {
+    font-size: .8em;
+    margin-top: 10px;
+}
+ion-icon {
+    font-size: 2.7em;
+    color: #d679a6;
+}
+
+ion-card {
+    img {
+        width: 160px;
+        margin: 15px auto 0;
+    }
+    ion-card-title {
+        font-size: 1.4rem!important
+    }
+}

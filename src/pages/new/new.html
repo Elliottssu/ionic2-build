@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      新品
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row align-items-start>
+      <ion-col col-6 *ngFor="let i of news" style="padding:0">
+        <ion-card style="    margin: 5px;width: 96%; ">
+          <img src="{{i.img}}"/>
+          <ion-card-content>
+            <ion-card-title>
+                <p style="font-size:1rem">{{i.title}}</p>
+            </ion-card-title>
+            <span style="color:red; font-size:1.4rem">¥{{i.price}}</span>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

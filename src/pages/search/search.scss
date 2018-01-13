@@ -1,0 +1,23 @@
+.tab-layout {
+    .tab-left {
+        width: 100px;
+        float: left;
+        ul {
+            padding: 0;
+            text-indent: 20px;
+        }
+        li {
+            list-style-type: none;
+            height: 50px;
+            background: #f9f9f9;
+            line-height: 50px;
+        }
+    }
+    .tab-right {
+        width: calc(100% - 100px);
+        float: left
+    }
+}
+.card {
+    box-shadow: 0 0 10px #b7b7b752;
+}

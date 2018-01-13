@@ -1,0 +1,113 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-segment>
+      <ion-segment-button value="new">
+        首页
+      </ion-segment-button>
+      <ion-segment-button value="hot">
+        男装
+      </ion-segment-button>
+      <ion-segment-button value="23">
+        电器
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+
+
+
+  <ion-slides (ionSlideDidChange)="slideChanged()" style="height: 150px;border:1px solid #eee">
+    <ion-slide>
+      <div style="background-image:url('//cdn.pinduoduo.com/assets/img/cat_clothes.jpg')"></div>
+    </ion-slide>
+    <ion-slide>
+      <div style="background-image:url('//cdn.pinduoduo.com/assets/img/cat_boyshirt.jpg')"></div>
+    </ion-slide>
+    <ion-slide>
+      <div style="background-image:url('//cdn.pinduoduo.com/assets/img/cat_general.jpg')"></div>
+    </ion-slide>
+  </ion-slides>
+
+
+
+
+  <ion-grid style="text-align:center">
+    <ion-row align-items-start>
+      <ion-col>
+        <ion-icon name="restaurant"></ion-icon>
+        <br> 限时秒杀
+      </ion-col>
+      <ion-col>
+        <ion-icon name="ribbon"></ion-icon>
+        <br> 品牌清仓
+      </ion-col>
+      <ion-col>
+        <ion-icon name="shirt"></ion-icon>
+        <br> 名品折扣
+      </ion-col>
+      <ion-col>
+        <ion-icon name="wine"></ion-icon>
+        <br> 海淘
+      </ion-col>
+      <ion-col>
+        <ion-icon name="locate"></ion-icon>
+        <br> 阻力免单
+      </ion-col>
+    </ion-row>
+    <ion-row align-items-start>
+      <ion-col>
+        <ion-icon name="umbrella"></ion-icon>
+        <br> 爱逛街
+      </ion-col>
+      <ion-col>
+        <ion-icon name="logo-usd"></ion-icon>
+        <br> 9块特卖
+      </ion-col>
+      <ion-col>
+        <ion-icon name="print"></ion-icon>
+        <br> 现金签到
+      </ion-col>
+      <ion-col>
+        <ion-icon name="medkit"></ion-icon>
+        <br> 食品超市
+      </ion-col>
+      <ion-col>
+        <ion-icon name="lock"></ion-icon>
+        <br> 新人礼包
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-card>
+    <img src="http://omsproductionimg.yangkeduo.com/images/2017-11-11/791db4f8c30fbe8b1808b1c66d6569e3.jpeg@750w_1l_50Q.src" />
+    <ion-card-content>
+      <ion-card-title>
+        麦饭石不粘锅炒锅平底无涂层不沾锅无油烟燃气电磁炉通用锅具炒勺
+      </ion-card-title>
+      <span style="color:red; font-size:2rem">¥5.5</span>
+      <span style="color: #bbb;margin-left:5px;font-size:1rem">已拼146万件</span>
+      <button style="float:right;width: 70px;height: 24px;font-size: 1.3rem;" ion-button color="danger">去拼单 ></button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <img src="http://omsproductionimg.yangkeduo.com/images/2017-12-15/3872305b2f270138751c97402b3c0157.jpeg@750w_1l_50Q.src" />
+    <ion-card-content>
+      <ion-card-title>
+      【超柔保暖法兰绒多款可选】秋冬季法兰绒保暖睡衣女长袖睡衣
+      </ion-card-title>
+      <span style="color:red; font-size:2rem">¥94.5</span>
+      <span style="color: #bbb;margin-left:5px;font-size:1rem">已拼442万件</span>
+      <button style="float:right;width: 70px;height: 24px;font-size: 1.3rem;" ion-button color="danger">去拼单 ></button>
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+
+</ion-content>
